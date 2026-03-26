@@ -94,7 +94,7 @@ for k, v in {
 model = None
 if GEMINI_AVAILABLE:
     try:
-        api_key = st.secrets.get("AIzaSyAr0sWPhOzisRz8y1GgaSczpvPPTrCdAG4", os.environ.get("AIzaSyAr0sWPhOzisRz8y1GgaSczpvPPTrCdAG4", ""))
+        api_key = st.secrets.get("GEMINI_API_KEY", os.environ.get("GEMINI_API_KEY", ""))
         if api_key:
             genai.configure(api_key=api_key)
             model = genai.GenerativeModel("models/gemini-1.5-flash")
