@@ -45,17 +45,17 @@ The system follows a **3-step pipeline**:
 2️.Context Enrichment
 - Combines multiple indicators  
 - Determines market condition:
-  - Bullish 📈  
-  - Bearish 📉  
+  - Bullish   
+  - Bearish  
   - Neutral  
 
 ---
 
 3.Decision Generation
 - Generates:
-  - BUY 🟢  
-  - SELL 🔴  
-  - HOLD 🟡  
+  - BUY  
+  - SELL   
+  - HOLD   
 
 - Provides:
   - Confidence Score  
@@ -96,4 +96,3 @@ Features:
 
 ---
 
-## 📂 Project Structure
